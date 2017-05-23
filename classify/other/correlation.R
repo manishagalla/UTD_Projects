@@ -1,0 +1,6 @@
+library(corrplot)
+spam_data <- read.csv("https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.data", header=FALSE)
+spam_dataframe <- as.data.frame(spam_data)
+M <- cor(spam_dataframe)
+corrplot(M, method = "circle")
+corrplot(M, method = "number")
