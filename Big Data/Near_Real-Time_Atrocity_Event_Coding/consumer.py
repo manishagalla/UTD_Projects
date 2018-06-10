@@ -8,7 +8,7 @@ import os
 from subprocess import Popen, PIPE
 import uuid
 
-base_dir = "/Users/vivek/Documents/UTD/Spring17/BigDataManagement/Project"
+base_dir = "/Users/manishagalla/Documents/UTD/Spring17/BigDataManagement/Project"
 input_files_path=os.path.join(base_dir,'scraper-master')
 #input_files_list=os.listdir(input_files_path)
 def es_index(rdd):
