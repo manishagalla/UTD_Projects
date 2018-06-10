@@ -1,7 +1,7 @@
 import os
 from subprocess import Popen, PIPE
 
-base_dir = "/Users/vivek/Documents/UTD/Spring17/BigDataManagement/Project"
+base_dir = "/Users/manishagalla/Documents/UTD/Spring17/BigDataManagement/Project"
 input_files_path=os.path.join(base_dir,'parsed_files')
 input_files_list=os.listdir(input_files_path)
 
