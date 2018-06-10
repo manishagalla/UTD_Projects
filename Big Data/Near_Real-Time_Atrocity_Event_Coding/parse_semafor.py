@@ -1,7 +1,7 @@
 import json
 import os, glob
 
-base_dir = "/Users/vivek/Documents/UTD/Spring17/BigDataManagement/Project"
+base_dir = "/Users/manishagalla/Documents/UTD/Spring17/BigDataManagement/Project"
 output_files_path=os.path.join(base_dir,'output_files')
 output_files_list=glob.glob(os.path.join(output_files_path,'*.txt'))
 for parsed_file in output_files_list:
